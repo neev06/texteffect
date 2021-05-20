@@ -1,0 +1,27 @@
+.text-change h1{
+
+  text-align: center;
+  justify-content: center;
+  margin: 250px;
+  font-family :'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2em;
+  
+    }
+
+.text-change h1::after{
+  content: "HTML";
+  color: #e76554;
+  animation: textanim 6s linear infinite;
+}
+
+@keyframes textanim{
+  25%{
+    content: "CSS";
+  }
+  50%{
+    content: "Javascript";
+  }
+  75%{
+    content: "PHP";
+  }
+}
